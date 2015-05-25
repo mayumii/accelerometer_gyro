@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFCBA6A61B1211B1002FFE12 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCBA6A51B1211B1002FFE12 /* CoreMotion.framework */; };
+		CFCBA6A81B1211C4002FFE12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCBA6A71B1211C4002FFE12 /* UIKit.framework */; };
+		CFCBA6AA1B1211D1002FFE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCBA6A91B1211D1002FFE12 /* Foundation.framework */; };
+		CFCBA6AC1B1211DF002FFE12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCBA6AB1B1211DF002FFE12 /* CoreGraphics.framework */; };
 		CFE0462B1B10CC9300776C15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE0462A1B10CC9300776C15 /* main.m */; };
 		CFE0462E1B10CC9300776C15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE0462D1B10CC9300776C15 /* AppDelegate.m */; };
 		CFE046311B10CC9300776C15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE046301B10CC9300776C15 /* ViewController.m */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFCBA6A51B1211B1002FFE12 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CFCBA6A71B1211C4002FFE12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFCBA6A91B1211D1002FFE12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFCBA6AB1B1211DF002FFE12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CFE046251B10CC9300776C15 /* motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE046291B10CC9300776C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFE0462A1B10CC9300776C15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCBA6AC1B1211DF002FFE12 /* CoreGraphics.framework in Frameworks */,
+				CFCBA6AA1B1211D1002FFE12 /* Foundation.framework in Frameworks */,
+				CFCBA6A81B1211C4002FFE12 /* UIKit.framework in Frameworks */,
+				CFCBA6A61B1211B1002FFE12 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,10 @@
 		CFE0461C1B10CC9300776C15 = {
 			isa = PBXGroup;
 			children = (
+				CFCBA6AB1B1211DF002FFE12 /* CoreGraphics.framework */,
+				CFCBA6A91B1211D1002FFE12 /* Foundation.framework */,
+				CFCBA6A71B1211C4002FFE12 /* UIKit.framework */,
+				CFCBA6A51B1211B1002FFE12 /* CoreMotion.framework */,
 				CFE046271B10CC9300776C15 /* motion */,
 				CFE046411B10CC9300776C15 /* motionTests */,
 				CFE046261B10CC9300776C15 /* Products */,
@@ -416,6 +432,7 @@
 				CFE0464A1B10CC9300776C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE0464B1B10CC9300776C15 /* Build configuration list for PBXNativeTarget "motionTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				CFE0464D1B10CC9300776C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
